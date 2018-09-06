@@ -36,7 +36,7 @@ PL Lecture 1 Notes:
 PL Lecture 2 Notes:
 1. piazza 1, 2 lab works
 2. data type sizeof
-3. (++, --, +=, -=, *=, /=, %= )
+3. (++, --, +=, -=, *=, /=, %=)
 4. comparison operators (==, !=, >, <, >=, <=)
 5. printf with floating numbers (M_PI) 
 6. math functions - pow, round, ceil, floor
@@ -58,5 +58,5 @@ PL Lecture 2 Notes:
 22. factorial
 23. infinite loop (for (;;)) break, continue
 24. while loop statement (power of 2, count of digits)
-25. sum of numbers (cin reads numbers in the loop) freemen
+25. sum of numbers (cin reads numbers in the loop) freopen
 26. string: number of words
