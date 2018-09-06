@@ -1,7 +1,7 @@
 # PP1-2018
 
 PL Lecture 1 Notes:
-1. Introduction + language + form (https://docs.google.com/forms/d/1BV584zASWcP3rCXOe9z5oYw93AQhXBo7zVls94iiS5Q/edit?ts=5b865967)
+1. Introduction
 2. Syllabus
     1. Setup, data types, unary/binary operations, bit manipulations, cin, cout, freopen
     2. if else conditional statements, loop (for, while, do while)
@@ -20,11 +20,9 @@ PL Lecture 1 Notes:
 6. Introduction to code structure, explain how compiler works
 7. Compiling and executing program (hello world program), return 0, code after return 0.
 8. Variables, declaration of variables (int, long long - explain how many numbers we can store)
-    1. int a; a = 5; cout << a;
-    2. int a, b; int c, d; a = 5; b = 6; c = a + b; d = a - b; cout << c << d << endl;
-    3. int a = 5, b = 6; cout << a + b;
-    4. cin >> a >> b example
-    5. a + b + c (cin, several parameters in cout) binary operators (+, -, *, /, % examples)
+    1. int a;...
+    2. cin >> a >> b example
+    3. a + b + c (cin, several parameters in cout) binary operators (+, -, *, /, % examples)
 9.   char (‘A’ - 65, ‘B’ - 97, ‘0’ - 48) Examples
 10. string simple, concatenating strings (with strings and chars)
 11. bool (example of ‘or’, ‘and’, ‘xor’)
@@ -35,5 +33,30 @@ PL Lecture 1 Notes:
 16. bit manipulations (how to calculate 2 power of N etc)
 17. examples from informatics (first lab from piazza) 
 
-
-
+PL Lecture 2 Notes:
+1. piazza 1, 2 lab works
+2. data type sizeof
+3. (++, --, +=, -=, *=, /=, %= )
+4. comparison operators (==, !=, >, <, >=, <=)
+5. printf with floating numbers (M_PI) 
+6. math functions - pow, round, ceil, floor
+7. bit manipulation, or, xor, and, >>, <<, |=, &=, ^=, ~
+8. 2^n example 1 << n
+9. set 1 for i-th bit of number: A |= (1<<i);
+10. invert i-th bit of number: A ^= (1<<i);
+11. identify i-th bit of number: int b = (A>>i)&1;
+12. if else conditions. If —> return 0, absolute value of number, minimum of three numbers, triangle problem (&&, and)
+13. even odd example
+14. find grade from points example
+15. loop operators: for, while, do while
+16. even numbers / odd numbers till 100
+17. infinity loop
+18. all numbers which divisible by 3 in range (a, b)
+19. count number of dividers of N
+20. prime number
+21. fibonacci sequence (0, 1, 1, 2, 3, 5, …)
+22. factorial
+23. infinite loop (for (;;)) break, continue
+24. while loop statement (power of 2, count of digits)
+25. sum of numbers (cin reads numbers in the loop) freemen
+26. string: number of words

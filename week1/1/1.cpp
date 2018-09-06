@@ -1,14 +1,20 @@
 #include <iostream>
-#include <cmath>
 #include <vector>
-
+#include <iterator>
 using namespace std;
 
-int main() {
-    //  cout << "hello world" << '\n' << "abc" << "dfadf";
-    // cout << "hello world" << endl;
-    // cout << "abc";
-    cout << "5 + 6" << " " << 2 * 3;
-    return 0;
-    cout << "hello!!!";
+template <typename ElementType>
+void print (vector<ElementType> & arr) {
+    arr[0] = 1;
+    copy (arr.begin(),
+          arr.end(), ostream_iterator<int>(cout," "));
+}
+int main()
+{
+    vector<int> a;
+    for (int i=0;i<100; i++){
+         a.push_back(i);
+    }
+    print<int>(a);
+    cout << a[0];
 }
