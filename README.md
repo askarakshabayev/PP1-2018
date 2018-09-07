@@ -40,7 +40,7 @@ PL Lecture 2 Notes:
 4. comparison operators (==, !=, >, <, >=, <=)
 5. printf with floating numbers (M_PI) 
 6. math functions - pow, round, ceil, floor
-7. bit manipulation, or, xor, and, >>, <<, |=, &=, ^=, ~
+7. bit manipulation, or, xor, and, >>, <<, |=, &=, ^=
 8. 2^n example 1 << n
 9. set 1 for i-th bit of number: A |= (1<<i);
 10. invert i-th bit of number: A ^= (1<<i);
@@ -59,4 +59,4 @@ PL Lecture 2 Notes:
 23. infinite loop (for (;;)) break, continue
 24. while loop statement (power of 2, count of digits)
 25. sum of numbers (cin reads numbers in the loop) freopen
-26. string: number of words
+26. string: number of words 
