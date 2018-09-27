@@ -1,39 +1,4 @@
 # PP1-2018
-1. From previous lectures
-    Loop samples
-        1. Sum of digits (for, while)
-        2. list of all squares < N (while)
-        3. do while & while
-            1. factorial using — while
-            2. sum all numbers until user enter 0 — do while
-        4. string: number of words (freopen)
-2. What is array?
-    1. value
-    2. index
-3. Init samples
-    1. Array declaration — int a[10]; bool b[10]; 
-    2. Declaration and init — int a[3] = {1, 2, 3}; int a[] = {1, 2, 3};
-4. Accessing the values of an array: a[0] = 3; 
-5. Other operations with arrays: a[0] = b; c = a[n+2]; a[a[2]] = a[1] + 3;
-
-6. 1D array samples
-    1. Read N number and show them
-    2. Sum of all elements int array
-    3. Create array with size N — int a[N]; Read N elements
-    4. Show even numbers from given array
-    5. Show numbers in odd position from given array
-    6. Count number of positive numbers in array
-    7. Find Max/Min from given array
-    8. Linear search of K from given array
-    9. Find number K and remove it, shift left all rest elements add 0 at the end
-    10. String samples
-        1. s.size(); s.length()
-        2. Show all digits from string
-        3. convert all letter to UPPER
-
-
-
-
 PL Lecture 1 Notes:
 1. Introduction
 2. Syllabus
@@ -94,3 +59,102 @@ PL Lecture 2 Notes:
 24. while loop statement (power of 2, count of digits)
 25. sum of numbers (cin reads numbers in the loop) freopen
 26. string: number of words 
+
+
+PL Lecture notes 3
+1. From previous lectures
+    Loop samples
+        1. Sum of digits (for, while)
+        2. list of all squares < N (while)
+        3. do while & while
+            1. factorial using — while
+            2. sum all numbers until user enter 0 — do while
+        4. string: number of words (freopen)
+2. What is array?
+    1. value
+    2. index
+3. Init samples
+    1. Array declaration — int a[10]; bool b[10]; 
+    2. Declaration and init — int a[3] = {1, 2, 3}; int a[] = {1, 2, 3};
+4. Accessing the values of an array: a[0] = 3; 
+5. Other operations with arrays: a[0] = b; c = a[n+2]; a[a[2]] = a[1] + 3;
+
+6. 1D array samples
+    1. Read N number and show them
+    2. Sum of all elements int array
+    3. Create array with size N — int a[N]; Read N elements
+    4. Show even numbers from given array
+    5. Show numbers in odd position from given array
+    6. Count number of positive numbers in array
+    7. Find Max/Min from given array
+    8. Linear search of K from given array
+    9. Find number K and remove it, shift left all rest elements add 0 at the end
+    10. String samples
+        1. s.size(); s.length()
+        2. Show all digits from string
+        3. convert all letter to UPPER
+
+PL lecture 4 notes:
+1. Quiz problems, upsolving and marks
+    1.1. A - easy
+         B - bottles (find two maximum elements)
+         C - parity
+         D - result = a + (c - 1)*d; (loop example)
+         E - no cycle (loop example, formula example)
+         F - prime number
+         G - 375
+         H - pineapple
+         I - three digit number
+         J - triangle
+
+2. Nested loop
+    2.1. Multiplication table
+    2.2.  1 1 1 1
+          2 2 2 2
+          3 3 3 3
+
+    2.3   1
+          1 2 
+          1 2 3 
+          1 2 3 4
+    
+3. 2D array (matrix)
+    3.1 input, output
+    3.2 table of multiplication
+    3.3 max element in matrix
+    3.4   
+    1 0 0 0
+    2 1 0 0
+    2 2 1 0
+    2 2 2 1
+    3.5
+    0  0  0  0  0  0  0  0  0  0
+    0  1  2  3  4  5  6  7  8  9
+    0  2  4  6  8 10 12 14 16 18
+    0  3  6  9 12 15 18 21 24 27
+    3.6
+    0 0 0 1
+    0 0 1 2
+    0 1 2 2
+    1 2 2 2
+    3.7
+    Дано число n и квадратный массив int A[n][n]. Проверьте, является ли массив симметричным относительно главной диагонали. Программа должна выводить слово yes для симметричного массива и слово no для несимметричного. Пример
+        Вход                   Выход
+        3                     yes
+        0 1 2
+        1 2 3
+        2 3 4
+    3.8
+    Состязания-1. В метании молота состязается n спортcменов. Каждый из них сделал m бросков. Победителем считается тот спортсмен, у которого сумма результатов по всем броскам максимальна.
+Если перенумеровать спортсменов числами от 0 до n-1, а попытки каждого из них – от 0 до m-1, то на вход программа получает массив int A[n][m], состоящий из неотрицательных чисел. Программа должна определить максимальную сумму чисел в одной строке и вывести на экран эту сумму и номер строки, для которой достигается эта сумма. Если таких строк несколько, то выводится номер наименьшей из них. Пример для n=4 спортсменов и m=3 попыток:
+
+        Вход                   Выход
+        4 3                    19
+        5 6 7                  1
+        6 6 7
+        7 6 6
+        4 3 5
+ 
+
+
+
