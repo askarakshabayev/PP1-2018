@@ -96,16 +96,7 @@ PL Lecture notes 3
 
 PL lecture 4 notes:
 1. Quiz problems, upsolving and marks
-    1.1. A - easy
-         B - bottles (find two maximum elements)
-         C - parity
-         D - result = a + (c - 1)*d; (loop example)
-         E - no cycle (loop example, formula example)
-         F - prime number
-         G - 375
-         H - pineapple
-         I - three digit number
-         J - triangle
+    1.1. 
 
 2. Nested loop
     2.1. Multiplication table
