@@ -1,21 +1,21 @@
 #include <iostream>
+#include <string.h>
+#include <algorithm>
+
 
 using namespace std;
+int a[1000], b[1000];
+
+bool isPalin(string s) {
+    string s1 = s;
+    reverse(s.begin(), s.end());
+    return s1 == s;
+}
 
 int main() {
-    int n;
-    cin >> n;
-    int a[n];
+    string s;
+    cin >> s;
 
-    for (int i = 0; i < n; i++)
-        cin >> a[i];
 
-    int cnt = 0;
-    for (int i = 1; i < n; i++)
-        for (int j = 0; j < i; j++)
-            if (a[i] > a[j])
-                cnt++;
-
-    cout << cnt;
     return 0;
 }
