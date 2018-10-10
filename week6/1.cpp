@@ -13,9 +13,14 @@ bool isPalin(string s) {
 }
 
 int main() {
-    string s;
-    cin >> s;
-
-
-    return 0;
+    string s, t;
+    cin >> t >> s;
+    while (s.substr(0, t.size()) == t) {
+        s.erase(0, t.size());
+    }
+    if (s == "")
+        cout << "YES";
+    else
+        cout << "NO";
+    return 0; 
 }

@@ -1,13 +1,13 @@
 # PP1-2018
 
-PPI Lecture 5
 
+PPI Lecture 5
 1. What is string
 2. Initialize string (with constructor)
 3. size & length
 4. for loop get each element
 5. adding chars to string
-6. s.begin(), s.end(), s.front() - s[0], s.back() - s[s.siez() - 1]
+6. s.begin(), s.end(), s.front() - s[0], s.back() - s[s.size() - 1]
 7. Examples
     1. compare two strings from input show YES if they are equal NO otherwise
     2. given two string show YES if second is found in first one NO otherwise
@@ -28,6 +28,8 @@ PPI Lecture 5
         1. insert
         2. math +
     13. stringstream
+
+
 
 PL Lecture 1 Notes:
 1. Introduction
@@ -176,6 +178,7 @@ PL lecture 4 notes:
         7 6 6
         4 3 5
  
+
 
 
 
