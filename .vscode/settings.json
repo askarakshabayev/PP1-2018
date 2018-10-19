@@ -22,6 +22,7 @@
         "__locale": "cpp",
         "ios": "cpp",
         "list": "cpp",
-        "ostream": "cpp"
+        "ostream": "cpp",
+        "string": "cpp"
     }
 }
