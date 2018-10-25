@@ -23,6 +23,9 @@
         "ios": "cpp",
         "list": "cpp",
         "ostream": "cpp",
-        "string": "cpp"
+        "string": "cpp",
+        "hash_map": "cpp",
+        "set": "cpp",
+        "vector": "cpp"
     }
 }
