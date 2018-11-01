@@ -26,6 +26,7 @@
         "string": "cpp",
         "hash_map": "cpp",
         "set": "cpp",
-        "vector": "cpp"
+        "vector": "cpp",
+        "stack": "cpp"
     }
 }

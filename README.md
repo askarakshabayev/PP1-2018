@@ -1,7 +1,7 @@
 # PP1-2018
 
 PL Lecture 10 Notes:
-1. STL: algorithms, containers, iterators, functions 
+1. STL: algorithm, containers, iterators, functions 
 2. Vector (vector declaration) vector<int> a; vector<int> b(50, 1);
 3. size, push_back, pop_back
     3.1. Create vector, push elements and print
@@ -14,8 +14,6 @@ PL Lecture 10 Notes:
 9. set<int> a(b.begin(), b.end()) 
 10. set<int> a(b, b + n)   
 
-freopen("input.txt", "r", stdin);
-freopen("output.txt", "w", stdout);
 
 
 
