@@ -1,14 +1,13 @@
 # PP1-2018
 
-PL Lecture 11 Notes:
-1. map (first, second, iterate map)
-2. Count of unique words
-3. map<string, pair<string, string> > example (ID, name, surname)
-4. stack simple example, bracket problem
-5. queue simple example, problem from a to b using operations (x+1, x*2)
-6. sort - using additional function third param
-
-
+PL Lecture 12 Notes (algorithm):
+1. count_if(begin_pointer, last_pointer, function)
+2. rotate(begin_pointer, middle_pointer, last_pointer)
+3. fill(begin_pointer, end_pointer, fill_parameter)
+4. unique(begin_pointer, last_pointer) - returns iterator to the end of resulting array
+5. for_each(begin_pointer, end_pointer, function)
+6. generate(begin_pointer, end_pointer, function)
+7. next_permutation, prev_permutation
 
 PL Lecture 1 Notes:
 1. Introduction
@@ -212,5 +211,10 @@ PL Lecture 10 Notes:
 9. set<int> a(b.begin(), b.end()) 
 10. set<int> a(b, b + n)   
 
-
-
+PL Lecture 11 Notes:
+1. map (first, second, iterate map)
+2. Count of unique words
+3. map<string, pair<string, string> > example (ID, name, surname)
+4. stack simple example, bracket problem
+5. queue simple example, problem from a to b using operations (x+1, x*2)
+6. sort - using additional function third param
