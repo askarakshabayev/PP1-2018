@@ -27,6 +27,8 @@
         "hash_map": "cpp",
         "set": "cpp",
         "vector": "cpp",
-        "stack": "cpp"
+        "stack": "cpp",
+        "iterator": "cpp",
+        "istream": "cpp"
     }
 }
